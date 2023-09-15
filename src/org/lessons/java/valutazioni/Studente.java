@@ -13,6 +13,7 @@ public class Studente {
 	}
 
 	public String eBocciato() {
+		
 		if (this.perCentAssenze > 50) {
 			return "bocciato";
 		} else if (this.perCentAssenze > 25 && this.perCentAssenze < 50) {
